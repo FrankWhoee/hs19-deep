@@ -29,7 +29,7 @@ For the combinatorial optimization algorithm, we'll either use a [simulated anne
 ### Interpretting the neural network
 You may be wondering why we're maximizing the activation of the final prediction neuron, and what it means biologically for a set of SNPs to maximize the activation.
 Good question!
-I'll explain with some mathematical notation (bare with me).
+I'll explain with some mathematical notation (bear with me).
 
 Often times, we make the final prediction neuron of a neural network to be a softmax vector [p_1,p_2,...,p_n].
 Each component p_i in the softmax vector can be interpretted as the probability that the true classification is the ith choice. For example, if the ith choice is that the tuberculosis isolate is resistant to the antibiotic rifampicin, then the neural network is telling us that it believes the probability to be p_i.
